@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="veiwport" content="width-device-width, initial scale=1.0">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Title</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><i class="fas fa-hamburger"></i></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Tell your Freinds</a>
+            <a class="dropdown-item" href="#">Submit a Review</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="FAQ.html">Frequently Asked Questions</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <img src="rockeyburgers03-logo.png">
+      <h1 class="display-4">Best Burger Around!</h1>
+      <p class="lead">Come try our award winning burger! Guaranteed to satisfy any appetite!</p>
+    </div>
+  </div>
+
+  <div class="content-container">
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+      <div class='checkbox'>
+          <input type="checkbox" name="add1" value="add"> I would like to recieve coupons and deals via e-mail.<br>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    
+
+
+    <div class="container-fluid card-container" style="margin-top: 15px">
+      <div class="row">
+        <div class="card col-3" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Origional Cheeseburger</h5>
+            <p class="card-text">Ground Beef Patty, Cheddar Cheese, Lettuce, Tomatoes, Onions, Mustard, Ketchup, and Our Signature Secret Spices.</p>
+            <a href="#" class="card-link">Add to Order</a>
+          </div>
+        </div>
+        <div class="card col-3" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">BBQ Bacon Cheeseburger</h5>
+            <p class="card-text">Ground Beef Patty, Cheddar Cheese, Provalone Cheese, Onion Ring, Fry Sauce, BBQ Sauce, and Our Signature Secret Spices.</p>
+            <a href="#" class="card-link">Add to Order</a>
+          </div>
+        </div>
+        <div class="card col-3" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Portabellow Mushroom Burger</h5>
+            <p class="card-text">Ground Beef Patty, Blue Cheese, Portabellow Mushrooms, Lettuce, Tomatoes, Onion Ring, Fry Sauce, and Our Signature Secret Spices.</p>
+            <a href="#" class="card-link">Add to Order</a>
+          </div>
+        </div>
+        <div class="card col-3" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Veggie burger</h5>
+            <p class="card-text">Veggie Patty, Lettuce, Tomatoes, Cheddar Cheese, Ketchup, Mustard, Onions, and Our Signature Secret Spices.</p>
+            <a href="#" class="card-link">Add to Order</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <footer class="map">
+    <div class="mapText">
+      Need Help Finding Us?
+    </div>
+      <div style="overflow:hidden;width: 700px;position: relative;"><iframe width="700" height="440" src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=salt%20lake%20city%20utah+(Rockey%20Burgers)&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><div style="position: absolute;width: 80%;bottom: 20px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;"><small style="line-height: 1.8;font-size: 8px;background: #fff;">Powered by <a href="https://embedgooglemaps.com/it/">Embedgooglemaps.com/it/</a> & <a href="https://buyinstagramfollowersreviews.net">Get likes for Instagram</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><br />
+  </footer>
+
+  
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
